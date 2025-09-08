@@ -28,25 +28,25 @@ IP range scanning with CIDR notation
 Adjustable thread count and timeout settings
 Comprehensive error handling
 
-Usage Examples:
-# Basic scan
+# Usage Examples:
+ Basic scan
 python port_scanner.py -t 192.168.1.1
 
-# Scan specific port range with more threads
+ Scan specific port range with more threads
 python port_scanner.py -t example.com -p 1-1000 --threads 200
 
-# Scan network range
+ Scan network range
 python port_scanner.py -t 192.168.1.0/24 -p 80,443,22,21
 
-# Full port scan with custom timeout
+ Full port scan with custom timeout
 python port_scanner.py -t 10.0.0.1 -p 1-65535 --timeout 2
-# Scan specific port range with more threads
+ Scan specific port range with more threads
 python port_scanner.py -t example.com -p 1-1000 --threads 200
 
-# Scan network range
+ Scan network range
 python port_scanner.py -t 192.168.1.0/24 -p 80,443,22,21
 
-# Full port scan with custom timeout
+ Full port scan with custom timeout
 python port_scanner.py -t 10.0.0.1 -p 1-65535 --timeout 2
 Technical Highlights:
 
